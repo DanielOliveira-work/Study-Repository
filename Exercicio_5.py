@@ -2,6 +2,9 @@ from random import randint
 import time
 
 def draw(numb):
+    """
+    num: número que irá para a def
+    """
     lista = []
     print(f'Sorteando 5 valores da lista: ', end='')
     for count in range(0, 5):
@@ -22,3 +25,4 @@ def adding_pairs(list_number):
 
 lista = draw(5)
 adding_pairs(lista)
+help(draw)
