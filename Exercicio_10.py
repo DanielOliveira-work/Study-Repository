@@ -1,4 +1,4 @@
-import defs
+import defs_ex10
 
 info = {}
 
@@ -15,5 +15,5 @@ while True:
         break
     else:
         student_average += 1
-defs.report_card(info)
+defs_ex10.report_card(info)
 
